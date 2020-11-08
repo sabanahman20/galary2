@@ -4,13 +4,13 @@
 #countainer .photos img{
 	position:absolute;
 	opacity:0;
-	transition:opacity 5s;
-	width:1000px;
-	height:1000px;
+	transition:opacity 1.25s;
+	width:100px;
+	height:100px;
 	
 }
 .buttons{
-	top:1100px;
+	top:200px;
 	position:absolute;
 }
 #countainer .photos img.show{

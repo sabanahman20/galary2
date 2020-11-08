@@ -11,5 +11,15 @@ window.addEventListener("load", function(){
 		}
 		photos[counter].className = "show";
 	});
+	var nazad = document.querySelector("#click")
+	var counter = 0;
+	nazad.addEventListener("click",function(){
+		photos[counter].className = "";
+		counter--; 
+		if(counter < 0){
+			counter = photos.length - 1;
+		}
+		photos[counter].className = "show";
+	});
 });
 
